@@ -1,13 +1,11 @@
 .nav > li:not(:last-child) {
 	border-bottom: 1px solid #50EAE3;
 }
-.navbar-collapse {
-	background-color: #B8F5F2;
-}
-@media (min-width: 768px) {
-    .navbar-collapse {
-    	background-color: inherit;
-    }
+
+.navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #B8F5F2;
 }
 
 main section {
