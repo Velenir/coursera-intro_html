@@ -1,0 +1,32 @@
+.nav > li:not(:last-child) {
+	border-bottom: 1px solid #50EAE3;
+}
+.navbar-collapse {
+	background-color: #B8F5F2;
+}
+@media (min-width: 768px) {
+    .navbar-collapse {
+    	background-color: inherit;
+    }
+}
+
+main section {
+    background-color: #737373;
+    color: white;
+    min-height: 700px;
+    position: relative;
+}
+
+section > footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+section > p {
+    padding: 0 7px;
+}
+
+section a, section a:hover {
+    color: white;
+}
