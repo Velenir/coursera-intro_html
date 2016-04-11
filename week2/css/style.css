@@ -1,0 +1,57 @@
+body {
+  font-family: Georgia, serif;
+}
+
+header {
+  font-size: 1.75rem;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+section {
+  border: 1px solid black;
+  color: white;
+  margin: 10px;
+  position: relative;
+}
+
+section > article {
+  padding: 5px 10px;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+section > header {
+  border: 1px black;
+  border-style: none none solid solid;
+  color: black;
+  min-width: 100px;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+section.chicken {
+  background-color: #8e7a7a;
+}
+
+section.chicken > header {
+  background-color: #BBE0BB;
+}
+
+section.beef {
+  background-color: #53863c;
+}
+
+section.beef > header {
+  background-color: #F9C3C3;
+}
+
+section.sushi {
+  background-color: #515595;
+}
+
+section.sushi > header {
+  background-color: #B1B156;
+}
